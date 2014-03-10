@@ -1,0 +1,30 @@
+{
+  "name" : "map2u/web-bundle",
+    "description" : "Map2u Web Bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Joseph Zhao",
+        "email" : "zhaoshuilin2004@yahoo.ca"
+    }],
+    "keywords" : [
+        "Map2u Web Bundle,Symfony 2"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Map2u\\WebBundle" : ""
+        }
+    },
+    "target-dir" : "Map2u/WebBundle",
+    "repositories" : [{}
+    ],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "2.2-dev"
+        }
+    }
+}

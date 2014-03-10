@@ -1,0 +1,3 @@
+map2u_web_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: Map2uWebBundle:Default:index }
