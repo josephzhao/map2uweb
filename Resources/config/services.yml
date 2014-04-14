@@ -1,12 +1,12 @@
 parameters:
 #    map2u_web.example.class: Map2u\WebBundle\Example
-    map2uwebbundle.db.table_prefix: map2uweb_
+#    map2uwebbundle.db.table_prefix: map2uweb_
 services:
 #    map2u_leaflet.example:
 #        class: %map2u_leaflet.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
-    map2uwebbundle.tblprefix_subscriber:
-                    class: Map2u\WebBundle\Subscriber\TablePrefixSubscriber
-                    arguments: [%map2uwebbundle.db.table_prefix%]
-                    tags:
-                        - { name: doctrine.event_subscriber }        
+#    map2uwebbundle.tblprefix_subscriber:
+#                    class: Map2u\WebBundle\Subscriber\TablePrefixSubscriber
+#                    arguments: [%map2uwebbundle.db.table_prefix%]
+#                    tags:
+#                        - { name: doctrine.event_subscriber }        
