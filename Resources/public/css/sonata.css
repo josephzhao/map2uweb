@@ -7102,3 +7102,18 @@ section.fork a:hover {
   text-decoration: underline; }
 section.fork i {
   font-size: 30px; }
+
+div.system-map-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background:  #285e8e;
+    border-radius:  3px;
+    background-image:url('../images/System-Map-icon.png');
+    background-repeat:no-repeat;
+}
+
+div.system-map-icon:hover {
+   cursor: pointer;
+   background: #c9e2b3;
+}
